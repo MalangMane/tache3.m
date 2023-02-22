@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 95vh;
+    padding: 4rem;
+    background-image: linear-gradient(to right bottom, #f6b707, #f69f00, #f58700, #f26c00, #ed4f00, #d54600, #bd3d00, #a63400, #7c3700, #583200, #392802, #211c0c);
+}
+
+.bloc-infos{
+    text-align: center;
+    color: #fff;
+}
+p{
+    text-align: center;
+    color: #fff;
+}
+p span{
+    text-decoration: underline;
+}
+
+button{
+    margin-left: 40%;
+    padding: 10px;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 45px;
+    border: #fff;
+    font-size: 100%;
+    position: relative;
+}
+button span{
+    color: red;
+    font-size: 10px;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+}
+
+.icon{
+    position: relative;
+    display: flex;
+}
+section{
+    margin: 12%;
+    margin-right: 30px;
+    transition: .3s;
+    text-align: center;
+    line-height: 35%;
+    margin-bottom: 50px;
+    padding-right: 30px;
+    
+}
+
+section p{
+    position: relative;
+    color: #211c0c;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 320px){
+     .icon{
+        display: inline;
+        min-width: 300px;
+        max-width: 700px;
+        margin: 12px;
+     }
+}
+/*
+@media screen and (max-width: 1250px){
+     .icon{
+        min-width: 100px;
+        max-width: 300px;
+        margin: 12px;
+     }
+}
+*/
+@media screen and (max-width: 1250px){
+     .icon{
+        width: 300px;
+     }
+}
+@media screen and (max-width: 1100px){
+     .icon{
+        width: 70%;
+     }
+}
+ 
+
+
